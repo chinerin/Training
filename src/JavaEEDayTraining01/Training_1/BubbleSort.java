@@ -7,7 +7,7 @@ package JavaEEDayTraining01.Training_1;
  * @author: CK
  * @data: 2020/7/1 14:52
  */
-public class bubbleSort {
+public class BubbleSort {
 
     public static void main(String[] args) {
         int[] arr = {2, 8, 7, 5, 9, 3};
