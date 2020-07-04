@@ -16,7 +16,6 @@ public class BubbleSort {
             System.out.print(arr[i]);
         }
     }
-
     /**
      *  冒泡
      * @param arr
@@ -32,7 +31,6 @@ public class BubbleSort {
             }
         }
     }
-
     /**
      * 交换位置
      * @param arr
