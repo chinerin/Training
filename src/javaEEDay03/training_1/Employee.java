@@ -1,17 +1,13 @@
-package javaEEDay02.training_3;
+package javaEEDay03.training_1;
 
 /**
- * @PackageName:JavaEEDay02.Training_3
- * @ClassName:Person
+ * @PackageName:JavaEEDay03.Training_1
+ * @ClassName:Employee
  * @Description:
  * @author: CK
- * @data: 2020/6/23 18:13
+ * @data: 2020/6/26 19:27
  */
-
-/**
- * 人员类
- */
-public abstract class Person {
+public abstract class Employee {
 
     private String name;
 
@@ -19,12 +15,12 @@ public abstract class Person {
 
     private int age;
 
-    public abstract void eat();
+    public abstract void work();
 
-    public Person() {
+    public Employee() {
     }
 
-    public Person(String name, String sex, int age) {
+    public Employee(String name, String sex, int age) {
         this.name = name;
         this.sex = sex;
         this.age = age;

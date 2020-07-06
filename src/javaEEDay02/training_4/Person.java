@@ -1,4 +1,4 @@
-package JavaEEDay02.Training_4;
+package javaEEDay02.training_4;
 
 /**
  * @PackageName:JavaEEDay02.Training_4
