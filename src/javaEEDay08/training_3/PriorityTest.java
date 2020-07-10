@@ -11,6 +11,6 @@ public class PriorityTest extends Thread {
 
     @Override
     public void run() {
-        System.out.println("Thread Name :" + this.getName());
+        System.out.println("MyThread Name :" + this.getName());
     }
 }

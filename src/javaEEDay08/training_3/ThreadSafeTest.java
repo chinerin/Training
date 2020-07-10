@@ -1,4 +1,4 @@
-package JavaEEDay08.Training_3;
+package javaEEDay08.training_3;
 
 /**
  * @PackageName:JavaEEDay08.Training_3
@@ -37,7 +37,7 @@ public class ThreadSafeTest implements Runnable {
             while (true){
                 if (count > 0){
                     try {
-                        Thread.sleep(1000);
+                        MyThread.sleep(1000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
